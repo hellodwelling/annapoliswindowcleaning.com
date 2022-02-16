@@ -899,27 +899,6 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 0; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a35d7cae-5f0a-4550-b31b-b8c920bf5d68.jpeg" alt="" /> -->
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a35d7cae-5f0a-4550-b31b-b8c920bf5d68.jpeg" alt="" />
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a35d7cae-5f0a-4550-b31b-b8c920bf5d68.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/a35d7cae-5f0a-4550-b31b-b8c920bf5d68.jpeg" alt="" /> -->
-                            
-                        </div>
-
-                        <div class="space-y-1 text-lg font-medium leading-6">
-                            <p class="line-clamp-3"></p>
-                            <h3 class="text-primary"></h3>
-                        </div>
-                    </button>
-                </div>
-            </li>
-        
-            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
-            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
-                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
-                        <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/cb6e34f5-5968-432c-abb8-0020b20763ac.jpeg" alt="" /> -->
                              
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/cb6e34f5-5968-432c-abb8-0020b20763ac.jpeg" alt="" />
@@ -939,13 +918,34 @@
             <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a35d7cae-5f0a-4550-b31b-b8c920bf5d68.jpeg" alt="" /> -->
+                             
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a35d7cae-5f0a-4550-b31b-b8c920bf5d68.jpeg" alt="" />
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a35d7cae-5f0a-4550-b31b-b8c920bf5d68.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/a35d7cae-5f0a-4550-b31b-b8c920bf5d68.jpeg" alt="" /> -->
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/21181345-4530-47ed-a972-2b1c40867261.jpeg" alt="" /> -->
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a301c30b-3042-4bad-a775-79904909e48c.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/21181345-4530-47ed-a972-2b1c40867261.jpeg" alt="" />
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/21181345-4530-47ed-a972-2b1c40867261.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/21181345-4530-47ed-a972-2b1c40867261.jpeg" alt="" /> -->
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a301c30b-3042-4bad-a775-79904909e48c.jpeg" alt="" />
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a301c30b-3042-4bad-a775-79904909e48c.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/a301c30b-3042-4bad-a775-79904909e48c.jpeg" alt="" /> -->
                             
                         </div>
 
@@ -962,11 +962,11 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a301c30b-3042-4bad-a775-79904909e48c.jpeg" alt="" /> -->
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/21181345-4530-47ed-a972-2b1c40867261.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a301c30b-3042-4bad-a775-79904909e48c.jpeg" alt="" />
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a301c30b-3042-4bad-a775-79904909e48c.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/a301c30b-3042-4bad-a775-79904909e48c.jpeg" alt="" /> -->
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/21181345-4530-47ed-a972-2b1c40867261.jpeg" alt="" />
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/21181345-4530-47ed-a972-2b1c40867261.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/21181345-4530-47ed-a972-2b1c40867261.jpeg" alt="" /> -->
                             
                         </div>
 
@@ -1004,27 +1004,6 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 5; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/300009f4-5b36-4cd7-899d-e4abe4f96b85.jpeg" alt="" /> -->
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/300009f4-5b36-4cd7-899d-e4abe4f96b85.jpeg" alt="" />
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/300009f4-5b36-4cd7-899d-e4abe4f96b85.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/300009f4-5b36-4cd7-899d-e4abe4f96b85.jpeg" alt="" /> -->
-                            
-                        </div>
-
-                        <div class="space-y-1 text-lg font-medium leading-6">
-                            <p class="line-clamp-3"></p>
-                            <h3 class="text-primary"></h3>
-                        </div>
-                    </button>
-                </div>
-            </li>
-        
-            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
-            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
-                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 6; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
-                        <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/e7c6773c-054d-4263-8a26-7dcf75c42b55.jpeg" alt="" /> -->
                              
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/e7c6773c-054d-4263-8a26-7dcf75c42b55.jpeg" alt="" />
@@ -1044,13 +1023,34 @@
             <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 6; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/300009f4-5b36-4cd7-899d-e4abe4f96b85.jpeg" alt="" /> -->
+                             
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/300009f4-5b36-4cd7-899d-e4abe4f96b85.jpeg" alt="" />
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/300009f4-5b36-4cd7-899d-e4abe4f96b85.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/300009f4-5b36-4cd7-899d-e4abe4f96b85.jpeg" alt="" /> -->
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 7; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/658ca4be-2879-4408-a90e-4e3afce203a7.jpeg" alt="" /> -->
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f219211c-f51c-4fe0-af1e-ea9cc2d5a324.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/658ca4be-2879-4408-a90e-4e3afce203a7.jpeg" alt="" />
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/658ca4be-2879-4408-a90e-4e3afce203a7.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/658ca4be-2879-4408-a90e-4e3afce203a7.jpeg" alt="" /> -->
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/f219211c-f51c-4fe0-af1e-ea9cc2d5a324.jpeg" alt="" />
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f219211c-f51c-4fe0-af1e-ea9cc2d5a324.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/f219211c-f51c-4fe0-af1e-ea9cc2d5a324.jpeg" alt="" /> -->
                             
                         </div>
 
@@ -1067,11 +1067,11 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 8; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f219211c-f51c-4fe0-af1e-ea9cc2d5a324.jpeg" alt="" /> -->
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/658ca4be-2879-4408-a90e-4e3afce203a7.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/f219211c-f51c-4fe0-af1e-ea9cc2d5a324.jpeg" alt="" />
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f219211c-f51c-4fe0-af1e-ea9cc2d5a324.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/f219211c-f51c-4fe0-af1e-ea9cc2d5a324.jpeg" alt="" /> -->
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/658ca4be-2879-4408-a90e-4e3afce203a7.jpeg" alt="" />
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/658ca4be-2879-4408-a90e-4e3afce203a7.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/658ca4be-2879-4408-a90e-4e3afce203a7.jpeg" alt="" /> -->
                             
                         </div>
 
@@ -1130,27 +1130,6 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 11; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ea27a82a-9844-4e64-8553-d08bcf24e57c.jpeg" alt="" /> -->
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/ea27a82a-9844-4e64-8553-d08bcf24e57c.jpeg" alt="" />
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ea27a82a-9844-4e64-8553-d08bcf24e57c.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/ea27a82a-9844-4e64-8553-d08bcf24e57c.jpeg" alt="" /> -->
-                            
-                        </div>
-
-                        <div class="space-y-1 text-lg font-medium leading-6">
-                            <p class="line-clamp-3"></p>
-                            <h3 class="text-primary"></h3>
-                        </div>
-                    </button>
-                </div>
-            </li>
-        
-            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
-            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
-                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 12; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
-                        <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c1175b2d-3c75-4d48-bc19-ef94a3d86188.jpeg" alt="" /> -->
                              
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/c1175b2d-3c75-4d48-bc19-ef94a3d86188.jpeg" alt="" />
@@ -1170,13 +1149,34 @@
             <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 12; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ea27a82a-9844-4e64-8553-d08bcf24e57c.jpeg" alt="" /> -->
+                             
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/ea27a82a-9844-4e64-8553-d08bcf24e57c.jpeg" alt="" />
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ea27a82a-9844-4e64-8553-d08bcf24e57c.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/ea27a82a-9844-4e64-8553-d08bcf24e57c.jpeg" alt="" /> -->
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 13; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/438f73bd-2b92-4e81-bf91-8a051308aafa.jpeg" alt="" /> -->
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b057dc5a-6381-4060-a112-d2c38882c123.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/438f73bd-2b92-4e81-bf91-8a051308aafa.jpeg" alt="" />
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/438f73bd-2b92-4e81-bf91-8a051308aafa.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/438f73bd-2b92-4e81-bf91-8a051308aafa.jpeg" alt="" /> -->
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/b057dc5a-6381-4060-a112-d2c38882c123.jpeg" alt="" />
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b057dc5a-6381-4060-a112-d2c38882c123.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/b057dc5a-6381-4060-a112-d2c38882c123.jpeg" alt="" /> -->
                             
                         </div>
 
@@ -1193,11 +1193,11 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 14; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b057dc5a-6381-4060-a112-d2c38882c123.jpeg" alt="" /> -->
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/438f73bd-2b92-4e81-bf91-8a051308aafa.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/b057dc5a-6381-4060-a112-d2c38882c123.jpeg" alt="" />
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b057dc5a-6381-4060-a112-d2c38882c123.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/b057dc5a-6381-4060-a112-d2c38882c123.jpeg" alt="" /> -->
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/438f73bd-2b92-4e81-bf91-8a051308aafa.jpeg" alt="" />
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/438f73bd-2b92-4e81-bf91-8a051308aafa.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/438f73bd-2b92-4e81-bf91-8a051308aafa.jpeg" alt="" /> -->
                             
                         </div>
 
@@ -1365,7 +1365,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 0">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a35d7cae-5f0a-4550-b31b-b8c920bf5d68.jpeg" alt="placeholder image" />
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/cb6e34f5-5968-432c-abb8-0020b20763ac.jpeg" alt="placeholder image" />
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1373,7 +1373,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 1">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/cb6e34f5-5968-432c-abb8-0020b20763ac.jpeg" alt="placeholder image" />
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a35d7cae-5f0a-4550-b31b-b8c920bf5d68.jpeg" alt="placeholder image" />
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1381,7 +1381,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 2">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/21181345-4530-47ed-a972-2b1c40867261.jpeg" alt="placeholder image" />
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a301c30b-3042-4bad-a775-79904909e48c.jpeg" alt="placeholder image" />
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1389,7 +1389,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 3">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a301c30b-3042-4bad-a775-79904909e48c.jpeg" alt="placeholder image" />
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/21181345-4530-47ed-a972-2b1c40867261.jpeg" alt="placeholder image" />
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1405,7 +1405,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 5">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/300009f4-5b36-4cd7-899d-e4abe4f96b85.jpeg" alt="placeholder image" />
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/e7c6773c-054d-4263-8a26-7dcf75c42b55.jpeg" alt="placeholder image" />
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1413,7 +1413,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 6">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/e7c6773c-054d-4263-8a26-7dcf75c42b55.jpeg" alt="placeholder image" />
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/300009f4-5b36-4cd7-899d-e4abe4f96b85.jpeg" alt="placeholder image" />
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1421,7 +1421,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 7">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/658ca4be-2879-4408-a90e-4e3afce203a7.jpeg" alt="placeholder image" />
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f219211c-f51c-4fe0-af1e-ea9cc2d5a324.jpeg" alt="placeholder image" />
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1429,7 +1429,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 8">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f219211c-f51c-4fe0-af1e-ea9cc2d5a324.jpeg" alt="placeholder image" />
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/658ca4be-2879-4408-a90e-4e3afce203a7.jpeg" alt="placeholder image" />
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1453,7 +1453,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 11">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ea27a82a-9844-4e64-8553-d08bcf24e57c.jpeg" alt="placeholder image" />
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c1175b2d-3c75-4d48-bc19-ef94a3d86188.jpeg" alt="placeholder image" />
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1461,7 +1461,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 12">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c1175b2d-3c75-4d48-bc19-ef94a3d86188.jpeg" alt="placeholder image" />
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ea27a82a-9844-4e64-8553-d08bcf24e57c.jpeg" alt="placeholder image" />
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1469,7 +1469,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 13">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/438f73bd-2b92-4e81-bf91-8a051308aafa.jpeg" alt="placeholder image" />
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b057dc5a-6381-4060-a112-d2c38882c123.jpeg" alt="placeholder image" />
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1477,7 +1477,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 14">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b057dc5a-6381-4060-a112-d2c38882c123.jpeg" alt="placeholder image" />
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/438f73bd-2b92-4e81-bf91-8a051308aafa.jpeg" alt="placeholder image" />
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -1559,13 +1559,14 @@
             
             
             <div class="w-full sm:w-auto">
-                <button
-                    @click="contactModalOpen = true"
+                <a
+                    target = "_blank" 
+                    href="tel:(410) 263-1910"
                     class="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white transition border-2 border-transparent rounded-md  sm:py-4 sm:px-10 hover:bg-primary-darker focus:outline-none focus-visible:ring-2 ring-primary ring-offset-2 ring-opacity-75 sm:w-auto bg-primary"
-                    >
+                >
                     Get a Quote
-                </button>
-            </div> 
+                </a>
+            </div>
             
                 
             
@@ -2008,62 +2009,62 @@
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-122074"
-                                            name="122074"
+                                            id="contact-service-122113"
+                                            name="122113"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-122074" class="ml-3 text-sm font-medium text-gray-700">Window Cleaning</label>
+                                        <label for="contact-label-service-122113" class="ml-3 text-sm font-medium text-gray-700">Window Cleaning</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-122075"
-                                            name="122075"
+                                            id="contact-service-122114"
+                                            name="122114"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-122075" class="ml-3 text-sm font-medium text-gray-700">Home Soft Wash</label>
+                                        <label for="contact-label-service-122114" class="ml-3 text-sm font-medium text-gray-700">Home Soft Wash</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-122076"
-                                            name="122076"
+                                            id="contact-service-122115"
+                                            name="122115"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-122076" class="ml-3 text-sm font-medium text-gray-700">Driveway & Sidewalk Cleaning</label>
+                                        <label for="contact-label-service-122115" class="ml-3 text-sm font-medium text-gray-700">Driveway & Sidewalk Cleaning</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-122077"
-                                            name="122077"
+                                            id="contact-service-122116"
+                                            name="122116"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-122077" class="ml-3 text-sm font-medium text-gray-700">Deck & Patio Cleaning</label>
+                                        <label for="contact-label-service-122116" class="ml-3 text-sm font-medium text-gray-700">Deck & Patio Cleaning</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-122078"
-                                            name="122078"
+                                            id="contact-service-122117"
+                                            name="122117"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-122078" class="ml-3 text-sm font-medium text-gray-700">Fence Washing</label>
+                                        <label for="contact-label-service-122117" class="ml-3 text-sm font-medium text-gray-700">Fence Washing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-122079"
-                                            name="122079"
+                                            id="contact-service-122118"
+                                            name="122118"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-122079" class="ml-3 text-sm font-medium text-gray-700">Pressure Washing</label>
+                                        <label for="contact-label-service-122118" class="ml-3 text-sm font-medium text-gray-700">Pressure Washing</label>
                                     </div>
                                 
                             </div>
